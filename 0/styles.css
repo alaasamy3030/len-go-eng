@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	/* vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	/* quotes: none; */
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	/* text-decoration: line-through; */
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*begin our styles*/
+
+body {
+	font: 16px/1.4em ;
+	color: #fff;
+}
+
+p,
+ul {
+	margin: 0 0 1.5em;
+}
+
+ul {
+	list-style: disc;
+	padding: 0 0 0 20px;
+}
+
+a {
+	color: #EFF5D9;
+}
+
+h1 {
+
+}
+
+h2 {
+
+	font-size: 32px;
+	line-height: 1.4em;
+	margin: 0 0 .4em;
+	font-weight: bold;
+}
+
+/*layout*/
+
+.wrapper {
+}
+
+article {
+	border-bottom: 1px solid #d8d8d8;
+	padding: 10px 20px 0 20px;
+	margin: 10px 0;
+}
+
+/*header*/
+
+header {
+	background: #1c1c1c;
+	padding: 15px 20px;
+}
+
+		header:before,
+		header:after {
+		    content:"";
+		    display:table;
+		}
+		
+		header:after {
+		    clear:both;
+		}
+		
+		/* For IE 6/7 (trigger hasLayout) */
+		header {
+		    zoom:1;
+		}
+
+h1.logo a {
+	color: #FF4081;
+	text-decoration: none;
+	font-weight: bold;
+	
+	font-size: 20px;
+	line-height: 22px;
+	float: left;
+	
+}
+
+a.to_nav {
+	float: right;
+	color: #fff;
+	background: #4e4e4e;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 22px;
+	height: 22px;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+a.to_nav:hover,
+a.to_nav:focus {
+	color: #FF4081;
+	background: #ccc;
+}
+	
+/*navigation*/	
+
+#primary_nav ul {
+	list-style: none;
+	background: #FF4081;
+	padding: 5px 0;
+}
+
+#primary_nav li a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	line-height: 2em;
+	height: 2em;
+	border-bottom: 1px solid #383838;
+}
+
+#primary_nav li:last-child a {
+	border-bottom: none;
+}
+
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+	color: #fff;
+	background: #FF4081;
+}
+
+/*footer*/
+
+footer {
+	text-align: center;
+	font-size: 14px;
+}
+
+/*media queries*/
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (min-width: 768px) {
+		
+a.to_nav {
+				display: none;
+}
+			
+.wrapper {
+				position: relative;
+				width: 768px;
+				margin: auto;
+}
+			
+#primary_nav {
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				background: none;
+}
+			
+#primary_nav li {
+				display: inline;
+}
+			
+#primary_nav li a {
+				float: left;
+				border: none;
+				padding: 0 10px;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+}
+			
+#primary_nav li.top {
+display: none;
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header h1 {
+    font-size: larger;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    font-size: 40px;
+    background: #4c4c4c;
+}
+  
+  
+
+
+#content  {
+    background: #FF4081;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px 5px 10px 5px;
+    line-height: 35px;
+}
+ 
+ 
+ 
+.listview li {
+    padding: 20px 10px 20px 10px;
+    list-style: none;
+    color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid #FF4081;
+}
+
+
+.divider   { 
+    margin: 10px 0px 10px 0px;
+    padding: 2px;
+    color: #fff;
+    font-weight: normal;
+	text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Carrois Gothic', sans-serif;
+    background: #FF4081; 
+}
+
+.divider h1  {
+    margin: 0.3em 0 0.3em;
+    padding: 5px;
+    color: #fff;
+    font-weight: normal;
+	text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: 'Carrois Gothic', sans-serif;
+    background: #007369; 
+}
+  
