@@ -1,0 +1,44 @@
+{"articles":[
+  {
+    "title": "Tom Hardy1",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  },
+   {
+    "title": "Tom Hardy2",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  },
+   {
+    "title": "Tom Hardy3",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  },
+   {
+    "title": "Tom Hardy4",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  },
+   {
+    "title": "Tom Hardy5",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  },
+   {
+    "title": "Tom Hardy6",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  },
+   {
+    "title": "Tom Hardy7",
+    "description": "bla bla bla bla bla bla",
+    "url": "https://api.androidhive.info/json/images/tom_hardy.jpg",
+    "urlToImage": "https://api.androidhive.info/json/images/tom_hardy.jpg"
+  }]
+}
